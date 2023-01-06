@@ -2,8 +2,15 @@
 
 namespace classOdev
 {
-    class Program
+    class Product
     {
+        public string productName { get; set; }
+        public double productPoint { get; set; }
+        public int productViewer { get; set; }
+        public double productPrice { get; set; }
+        public string productCurrency { get; set; }
+    
+    
         static void Main(string[] args)
         {
             Product product1 = new Product();
@@ -38,12 +45,5 @@ namespace classOdev
 
         }
     }
-    class Product
-    {
-        public string productName { get; set; }
-        public double productPoint  { get; set; }
-        public int productViewer { get; set; }
-        public double productPrice { get; set; }
-        public string productCurrency { get; set; }
-    }
+
 }
